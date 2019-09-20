@@ -1,0 +1,47 @@
+
+header {
+    height: 100px;
+}
+
+.logo{
+    float:left;
+    height: 31px;
+    width:37px;
+    margin-top:38px;
+    background-image: url('../images/sprite.png'); 
+    background-position: -7px -7px;
+  }
+
+.nav{
+    float: right;
+} 
+
+header .nav{
+    margin-top: 44px;
+}
+
+header .nav .nav_menu{
+font-size: 12px;
+font-family: 'Montserrat', sans-serif;
+text-transform: uppercase;
+font-weight: 600;
+}
+
+header .nav .nav_menu:nth-child(1),
+header .nav .nav_menu:nth-child(3) { 
+    color:#000000;
+    margin-left: 30px;
+    
+}
+
+header .nav .nav_menu:nth-child(2){
+    color:#5ED4D0; 
+    margin-left: 30px;
+}
+ 
+
+
+
+
+
+

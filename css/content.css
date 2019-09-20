@@ -1,0 +1,140 @@
+.banner{
+    height:350px;
+    background-image: url(../images/photo.jpg);
+}
+
+.banner h1, p{
+    text-align: center;
+    color: #fff;
+}
+
+.banner h1{
+    padding-top: 112px;
+    font-size: 38px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner p{
+    font-weight: 18px;
+    font-family:'Nunito', sans-serif;
+}
+
+.numbers_main{
+    background-color: #10C9C3;
+    height: 240px;
+}
+
+.numbers .icons .icon_1,
+.numbers .icons .icon_2,
+.numbers .icons .icon_3,
+.numbers .icons .icon_4 {
+    display: inline-block;
+    background-image: url('../images/sprite.png');
+    height: 70px;
+}
+
+.numbers .icons {
+margin-left: 0px;
+overflow: hidden;
+padding-top: 88px;
+}
+
+.numbers .icons li{
+    float: left;
+    margin-right: 130px;
+}
+
+.numbers .icons .icon_1{
+    width: 40px;
+    height: 36px; 
+    background-position: -48px -8px; 
+}
+
+.numbers .icons .icon_2{
+    width: 38px;
+    height: 40px; 
+    background-position: -96px -8px; 
+}
+
+.numbers .icons .icon_3{
+    width: 41px;
+    height: 41px; 
+    background-position: -145px -8px; 
+}
+
+.numbers .icons .icon_4{
+    width: 40px;
+    height: 38px; 
+    background-position: -8px -56px; 
+}
+
+.numbers .icons .num{
+    display: block;
+    text-align: left;
+    font-size: 18px;
+    padding-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.numbers .icons p{
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.sidebar{
+    margin-top: -23px;
+    height:570px;
+    background-color: #F5F5F5;
+ 
+}
+.side_left{
+    float:left;
+    width: 650px;
+    height:570px;
+    background-image: url(../images/photo2.jpg); 
+}
+
+.side_right{
+    padding-top:70px;
+    margin:0px 120px 5px 750px;
+}
+
+.side_right h2{
+    font-weight: 30px;
+}
+
+.side_right p{ 
+    color:  #787878;
+    text-align: left;
+}
+
+.signout{
+    width: 230px;
+    height:80px;
+    background-image: url(../images/photo3.jpg);
+}
+
+.content { 
+    height:400px;
+}
+
+.content h3{ 
+    text-align: center;
+    padding-top:70px;
+}
+
+.content p{
+    color:  #787878;
+}
+
+.content a{
+    padding: 20px;
+    background-color:#39B4AF;
+    text-decoration: none;
+    color:#fff;
+    margin-top: 25px;
+    display: inline-block;
+    margin-left: 45%; 
+}
+
